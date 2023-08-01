@@ -1,0 +1,66 @@
+class GroceryData{
+
+
+  static List<Map<String, dynamic>> groceryProducts = [
+    {
+      'id': '1',
+      'name': 'Apples',
+      'category': 'Fruits',
+      'price': 2.49,
+      'quantity': 3,
+      'unit': 'lbs',
+      'inStock': true,
+      'imageUrl': 'https://media.istockphoto.com/id/622795204/photo/red-delicious-apples.jpg?s=612x612&w=0&k=20&c=-uu4u0m62t1nz3kcOVkallOgSWoOj_KtcVTCIlyfpXY=',
+    },
+    {
+      'id': '2',
+      'name': 'Milk',
+      'category': 'Dairy',
+      'price': 1.99,
+      'quantity': 1,
+      'unit': 'gallon',
+      'inStock': true,
+      'imageUrl': 'https://images.immediate.co.uk/production/volatile/sites/30/2020/02/Glass-and-bottle-of-milk-fe0997a.jpg',
+    },
+    {
+      'id': '3',
+      'name': 'Bread',
+      'category': 'Bakery',
+      'price': 3.49,
+      'quantity': 1,
+      'unit': 'loaf',
+      'inStock': true,
+      'imageUrl': 'https://www.bigbasket.com/media/uploads/p/l/40087525_6-fresho-sandwich-bread-safe-preservative-free.jpg',
+    },
+    {
+      'id': '4',
+      'name': 'Eggs',
+      'category': 'Dairy',
+      'price': 1.79,
+      'quantity': 12,
+      'unit': 'count',
+      'inStock': true,
+      'imageUrl': 'https://kidseatincolor.com/wp-content/uploads/2022/02/eggs-e1648216369366.jpeg',
+    },
+    {
+      'id': '5',
+      'name': 'Chicken Breast',
+      'category': 'Meat',
+      'price': 5.99,
+      'quantity': 2,
+      'unit': 'lbs',
+      'inStock': true,
+      'imageUrl': 'https://www.savorynothings.com/wp-content/uploads/2022/01/grilled-chicken-breast-recipe-image-sq.jpg',
+    },
+    {
+      'id': '6',
+      'name': 'Rice',
+      'category': 'Grains',
+      'price': 4.99,
+      'quantity': 1,
+      'unit': 'lb',
+      'inStock': false,
+      'imageUrl': 'https://www.indianhealthyrecipes.com/wp-content/uploads/2021/05/coconut-rice-recipe.jpg',
+    },
+  ];
+}
